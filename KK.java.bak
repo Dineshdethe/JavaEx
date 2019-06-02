@@ -1,0 +1,22 @@
+class KK extends MK 
+{
+	 int y=m2();
+	int m2(){
+		System.out.println("KK NSV");
+		return 20;
+	}
+	{
+		System.out.println("KK NSB");
+	}
+	KK(){
+		System.out.println("KK NSB");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main start");
+		KK k=new KK();
+		System.out.println("kk main"+ k.x);
+		System.out.println("kk main "+k.y);
+
+	}
+}
